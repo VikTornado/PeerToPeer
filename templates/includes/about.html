@@ -2,10 +2,106 @@
 {% load i18n %}
 
 {% block content %}
-<section class="max-w-screen-md mx-auto px-4 py-12">
-  <h1 class="text-3xl font-bold text-gray-800 mb-6">{{ page.title }}</h1>
-  <div class="prose max-w-none">
-    {{ page.content|safe }}
-  </div>
-</section>
+<div class="font-sans text-gray-700">
+
+  <!-- Hero Section -->
+  <section class="relative py-20 overflow-hidden">
+    <div class="relative z-10 max-w-4xl mx-auto text-center px-4">
+      <h1 class="text-4xl md:text-6xl font-heading font-bold text-[#0057B8] mb-6 leading-tight">
+        {% trans "Хто ми є?" %}
+      </h1>
+      <p class="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        {% trans "Ми — енергія змін. Ми — спільнота, де кожен голос має значення, а кожна дія створює хвилю добра." %}
+      </p>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="py-16 bg-gray-50 rounded-3xl my-12 mx-4 md:mx-0">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+      <div class="md:w-1/2">
+        <div class="inline-block px-4 py-1 rounded-full bg-[#FFD700] text-[#212529] font-bold text-sm mb-4">
+          {% trans "НАША МІСІЯ" %}
+        </div>
+        <h2 class="text-3xl md:text-4xl font-heading font-bold text-[#212529] mb-6">
+          {% trans "Рівний-рівному — це більше, ніж фонд." %}
+        </h2>
+        <p class="text-lg leading-relaxed mb-6">
+          {% trans "Це філософія взаємодії, де немає «благодійників» і «прохачів». Є лише люди, які об'єднуються заради спільної мети. Ми віримо, що справжня сила суспільства — у горизонтальних зв'язках." %}
+        </p>
+        <p class="text-lg leading-relaxed">
+          {% trans "Ми будуємо мости довіри, руйнуємо бар'єри байдужості та створюємо простір, де інновації служать людяності." %}
+        </p>
+      </div>
+      <div class="md:w-1/2 relative">
+        <!-- Decorative element -->
+        <div class="absolute -top-4 -left-4 w-24 h-24 bg-[#0057B8] rounded-full opacity-20 blur-xl"></div>
+        <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-[#FFD700] rounded-full opacity-20 blur-xl"></div>
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Teamwork" class="relative rounded-2xl shadow-xl w-full object-cover h-80 md:h-96 transform hover:scale-[1.02] transition duration-500">
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="py-20">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-heading font-bold text-[#0057B8] mb-4">{% trans "Наші цінності" %}</h2>
+      <p class="text-lg text-gray-600">{% trans "Принципи, які керують кожним нашим кроком" %}</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
+      <!-- Value 1 -->
+      <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition duration-300 group">
+        <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#0057B8] transition duration-300">
+          <svg class="w-8 h-8 text-[#0057B8] group-hover:text-white transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        </div>
+        <h3 class="text-xl font-bold text-[#212529] mb-3">{% trans "Прозорість" %}</h3>
+        <p class="text-gray-600">
+          {% trans "Ми відкриті у своїх діях, звітах та намірах. Довіра — це валюта, яку ми цінуємо понад усе." %}
+        </p>
+      </div>
+
+      <!-- Value 2 -->
+      <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition duration-300 group">
+        <div class="w-14 h-14 bg-yellow-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#FFD700] transition duration-300">
+          <svg class="w-8 h-8 text-[#FFD700] group-hover:text-[#212529] transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+        </div>
+        <h3 class="text-xl font-bold text-[#212529] mb-3">{% trans "Взаємопідтримка" %}</h3>
+        <p class="text-gray-600">
+          {% trans "Ми не просто допомагаємо — ми даємо інструменти для зростання. Сильний допомагає слабшому стати сильним." %}
+        </p>
+      </div>
+
+      <!-- Value 3 -->
+      <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition duration-300 group">
+        <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#0057B8] transition duration-300">
+          <svg class="w-8 h-8 text-[#0057B8] group-hover:text-white transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+        </div>
+        <h3 class="text-xl font-bold text-[#212529] mb-3">{% trans "Інновації" %}</h3>
+        <p class="text-gray-600">
+          {% trans "Благодійність має бути сучасною. Ми шукаємо нові шляхи для вирішення старих проблем." %}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-[#0057B8] rounded-3xl mx-4 md:mx-0 text-center text-white relative overflow-hidden">
+    <div class="relative z-10 max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl md:text-5xl font-heading font-bold mb-6">{% trans "Готові стати частиною змін?" %}</h2>
+      <p class="text-xl text-blue-100 mb-8">
+        {% trans "Ваша участь може змінити чиєсь життя вже сьогодні. Долучайтесь до нашої команди або підтримайте проєкт." %}
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="/volunteering/" class="px-8 py-4 bg-[#FFD700] text-[#212529] font-bold rounded-xl hover:bg-yellow-400 transition shadow-lg">
+          {% trans "Стати волонтером" %}
+        </a>
+        <a href="/contacts/" class="px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-xl hover:bg-white hover:text-[#0057B8] transition">
+          {% trans "Зв'язатися з нами" %}
+        </a>
+      </div>
+    </div>
+  </section>
+
+</div>
 {% endblock %}

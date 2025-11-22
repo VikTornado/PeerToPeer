@@ -1,21 +1,109 @@
-{% extends 'base.html' %}
-
+{% extends 'includes/base.html' %}
 {% load i18n %}
 
 {% block content %}
-<section class="max-w-screen-xl mx-auto px-4 py-10">
-  <h1 class="text-3xl font-bold mb-6 text-center text-gray-800">Участь у проєктах</h1>
+<div class="font-sans text-gray-700">
 
-  {% if projects_page %}
-    <div class="prose max-w-none">
-      {{ projects_page.content|linebreaks }}
+  <!-- Hero Section -->
+  <section class="relative py-20 bg-white text-center">
+    <div class="max-w-4xl mx-auto px-4">
+      <h1 class="text-4xl md:text-6xl font-heading font-bold text-[#212529] mb-6 leading-tight">
+        {% trans "Історії успіху" %}
+      </h1>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        {% trans "Реальні проєкти, реальні люди, реальні зміни. Подивіться, що ми вже зробили разом." %}
+      </p>
     </div>
-  {% else %}
-    <p class="text-gray-600 text-center">Інформація наразі відсутня.</p>
-  {% endif %}
+  </section>
 
-  <div class="mt-8 text-center">
-    <a href="/" class="text-primary hover:underline">← Повернутися на головну</a>
-  </div>
-</section>
+  <!-- Stats Section -->
+  <section class="py-12 bg-[#0057B8] rounded-3xl mx-4 md:mx-0 text-white mb-16 shadow-lg">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div>
+        <div class="text-4xl md:text-5xl font-bold font-heading mb-2">50+</div>
+        <div class="text-blue-200 text-sm uppercase tracking-wider">{% trans "Реалізованих проєктів" %}</div>
+      </div>
+      <div>
+        <div class="text-4xl md:text-5xl font-bold font-heading mb-2">10k+</div>
+        <div class="text-blue-200 text-sm uppercase tracking-wider">{% trans "Людей отримали допомогу" %}</div>
+      </div>
+      <div>
+        <div class="text-4xl md:text-5xl font-bold font-heading mb-2">200+</div>
+        <div class="text-blue-200 text-sm uppercase tracking-wider">{% trans "Активних волонтерів" %}</div>
+      </div>
+      <div>
+        <div class="text-4xl md:text-5xl font-bold font-heading mb-2">5M+</div>
+        <div class="text-blue-200 text-sm uppercase tracking-wider">{% trans "Гривень зібрано" %}</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section class="py-12 max-w-7xl mx-auto px-4">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Project Card 1 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 group flex flex-col h-full">
+        <div class="relative h-64 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 1" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+          <div class="absolute top-4 right-4 bg-[#FFD700] text-[#212529] text-xs font-bold px-3 py-1 rounded-full uppercase">
+            {% trans "Завершено" %}
+          </div>
+        </div>
+        <div class="p-8 flex flex-col flex-grow">
+          <h3 class="text-2xl font-bold text-[#212529] mb-4 group-hover:text-[#0057B8] transition">{% trans "Допомога дітям-сиротам" %}</h3>
+          <p class="text-gray-600 mb-6 flex-grow">
+            {% trans "Забезпечення дитячих будинків необхідними речами, організація свят та освітніх заходів." %}
+          </p>
+          <a href="#" class="inline-flex items-center text-[#0057B8] font-bold hover:underline mt-auto">
+            {% trans "Детальніше про проєкт" %}
+            <svg class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 group flex flex-col h-full">
+        <div class="relative h-64 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 2" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+          <div class="absolute top-4 right-4 bg-[#0057B8] text-white text-xs font-bold px-3 py-1 rounded-full uppercase">
+            {% trans "Триває" %}
+          </div>
+        </div>
+        <div class="p-8 flex flex-col flex-grow">
+          <h3 class="text-2xl font-bold text-[#212529] mb-4 group-hover:text-[#0057B8] transition">{% trans "Відбудова житла" %}</h3>
+          <p class="text-gray-600 mb-6 flex-grow">
+            {% trans "Допомога у відновленні пошкоджених будинків у деокупованих регіонах. Будівельні матеріали та робоча сила." %}
+          </p>
+          <a href="#" class="inline-flex items-center text-[#0057B8] font-bold hover:underline mt-auto">
+            {% trans "Детальніше про проєкт" %}
+            <svg class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 group flex flex-col h-full">
+        <div class="relative h-64 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 3" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500">
+          <div class="absolute top-4 right-4 bg-[#FFD700] text-[#212529] text-xs font-bold px-3 py-1 rounded-full uppercase">
+            {% trans "Завершено" %}
+          </div>
+        </div>
+        <div class="p-8 flex flex-col flex-grow">
+          <h3 class="text-2xl font-bold text-[#212529] mb-4 group-hover:text-[#0057B8] transition">{% trans "Медичне обладнання" %}</h3>
+          <p class="text-gray-600 mb-6 flex-grow">
+            {% trans "Закупівля та передача сучасного медичного обладнання для лікарень у прифронтових зонах." %}
+          </p>
+          <a href="#" class="inline-flex items-center text-[#0057B8] font-bold hover:underline mt-auto">
+            {% trans "Детальніше про проєкт" %}
+            <svg class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</div>
 {% endblock %}

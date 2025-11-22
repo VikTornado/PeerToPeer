@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-22 13:52+0200\n"
+"POT-Creation-Date: 2025-11-22 19:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,42 +60,58 @@ msgstr "← Back to Home"
 msgid "→ Перейти до архіву новин"
 msgstr "→ Go to news archive"
 
-#: templates/includes/header.html:9
+#: templates/includes/footer.html:5
+msgid "Усі права захищено."
+msgstr ""
+
+#: templates/includes/footer.html:8
+msgid "Політика конфіденційності"
+msgstr ""
+
+#: templates/includes/footer.html:9
+msgid "Умови використання"
+msgstr ""
+
+#: templates/includes/header.html:10
 msgid "PeerToPeer"
 msgstr "PeerToPeer"
 
-#: templates/includes/header.html:13 templates/includes/header.html:78
+#: templates/includes/header.html:14 templates/includes/header.html:99
 msgid "Головна"
 msgstr "Home"
 
-#: templates/includes/header.html:14 templates/includes/header.html:79
+#: templates/includes/header.html:19 templates/includes/header.html:104
+msgid "Діяльність фонду"
+msgstr "Fund Activities"
+
+#: templates/includes/header.html:31 templates/includes/header.html:108
 msgid "Статутна діяльність"
 msgstr "Statutory Activities"
 
-#: templates/includes/header.html:15 templates/includes/header.html:80
+#: templates/includes/header.html:32 templates/includes/header.html:109
 msgid "Міжнародна діяльність"
 msgstr "International Activities"
 
-#: templates/includes/header.html:16 templates/includes/header.html:81
+#: templates/includes/header.html:33 templates/includes/header.html:110
 msgid "Волонтерство"
 msgstr "Volunteering"
 
-#: templates/includes/header.html:17 templates/includes/header.html:82
+#: templates/includes/header.html:34 templates/includes/header.html:111
 msgid "Участь у проєктах"
 msgstr "Project Participation"
 
-#: templates/includes/header.html:18 templates/includes/header.html:83
+#: templates/includes/header.html:38 templates/includes/header.html:115
 msgid "Про нас"
 msgstr "About Us"
 
-#: templates/includes/header.html:19 templates/includes/header.html:84
+#: templates/includes/header.html:39 templates/includes/header.html:116
 msgid "Контакти"
 msgstr "Contacts"
 
-#: templates/includes/header.html:27
+#: templates/includes/header.html:47
 msgid "Вийти"
 msgstr "Logout"
 
-#: templates/includes/header.html:29 templates/includes/header.html:87
+#: templates/includes/header.html:49 templates/includes/header.html:119
 msgid "Увійти"
 msgstr "Login"
