@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-22 13:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: news/templates/news/news_list.html:6
+#, fuzzy
+#| msgid "Наші новини"
+msgid "Архів новин"
+msgstr "Our News"
+
+#: news/templates/news/news_list.html:34
+msgid "Детальніше →"
+msgstr ""
+
+#: news/templates/news/news_list.html:35
+msgid "← Згорнути"
+msgstr ""
+
+#: news/templates/news/news_list.html:49
+msgid "Закрити"
+msgstr ""
+
+#: templates/includes/base.html:9
+msgid "Наші новини"
+msgstr "Our News"
+
+#: templates/includes/base.html:10
+msgid "Актуальні новини та публікації нашої організації"
+msgstr "Latest news and publications of our organization"
+
+#: templates/includes/base.html:22
+msgid "No image"
+msgstr "No image"
+
+#: templates/includes/base.html:29 templates/includes/base.html:44
+msgid "View"
+msgstr "View"
+
+#: templates/includes/base.html:37
+msgid "← Повернутися на головну"
+msgstr "← Back to Home"
+
+#: templates/includes/base.html:38 templates/includes/base.html:45
+msgid "→ Перейти до архіву новин"
+msgstr "→ Go to news archive"
+
+#: templates/includes/header.html:9
+msgid "PeerToPeer"
+msgstr "PeerToPeer"
+
+#: templates/includes/header.html:13 templates/includes/header.html:78
+msgid "Головна"
+msgstr "Home"
+
+#: templates/includes/header.html:14 templates/includes/header.html:79
+msgid "Статутна діяльність"
+msgstr "Statutory Activities"
+
+#: templates/includes/header.html:15 templates/includes/header.html:80
+msgid "Міжнародна діяльність"
+msgstr "International Activities"
+
+#: templates/includes/header.html:16 templates/includes/header.html:81
+msgid "Волонтерство"
+msgstr "Volunteering"
+
+#: templates/includes/header.html:17 templates/includes/header.html:82
+msgid "Участь у проєктах"
+msgstr "Project Participation"
+
+#: templates/includes/header.html:18 templates/includes/header.html:83
+msgid "Про нас"
+msgstr "About Us"
+
+#: templates/includes/header.html:19 templates/includes/header.html:84
+msgid "Контакти"
+msgstr "Contacts"
+
+#: templates/includes/header.html:27
+msgid "Вийти"
+msgstr "Logout"
+
+#: templates/includes/header.html:29 templates/includes/header.html:87
+msgid "Увійти"
+msgstr "Login"

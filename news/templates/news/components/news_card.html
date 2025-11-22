@@ -1,0 +1,16 @@
+<a href="{% url 'news_detail' news.pk %}" class="block bg-white rounded-lg shadow-sm hover:shadow-lg transition p-4 border border-gray-200">
+  {% if news.main_image %}
+    <img
+      src="{{ news.main_image.url }}"
+      alt="{{ news.title }}"
+      class="w-full h-48 object-cover rounded mb-4"
+      loading="lazy"
+    >
+  {% endif %}
+
+  <h3 class="text-xl font-semibold text-gray-800 mb-1">{{ news.title }}</h3>
+  <p class="text-sm text-gray-500 mb-2">{{ news.created_at|date:"d.m.Y H:i" }}</p>
+  <p class="text-gray-700 line-clamp-3">{{ news.content|truncatewords:25 }}</p>
+
+  <p class="mt-2 text-blue-600 font-medium hover:underline">→ Детальніше</p>
+</a>

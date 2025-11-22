@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="uk" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}PeerToPeer{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    {% block head_extra %}{% endblock %}
+  </head>
+  <body class="flex flex-col min-h-screen">
+    {% include "includes/header.html" %}
+
+    <main class="flex-grow">
+      {% block content %}{% endblock %}
+    </main>
+
+    {% include "includes/footer.html" %}
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block content %}
+<section class="max-w-screen-md mx-auto px-4 py-10">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">{{ page.title }}</h1>
+  <!-- <h1 class="text-3xl font-bold text-gray-800 mb-6">Волонтерство</h1> -->
+  <p class="text-gray-700 leading-relaxed">
+    Інформація про волонтерську діяльність. Контент редагується в адмін-панелі.
+  </p>
+
+  {% if page %}
+    <div class="mt-6 prose max-w-none">
+      {{ page.content|safe }}
+    </div>
+  {% endif %}
+</section>
+{% endblock %}

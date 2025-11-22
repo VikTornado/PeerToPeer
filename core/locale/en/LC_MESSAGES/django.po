@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-20 10:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: core/templates/core/contacts.html:6
+msgid "Contacts"
+msgstr "Contacts"
+
+#: templates/includes/header.html:9
+msgid "Рівний-рівному"
+msgstr "PeerToPeer"
+
+#: templates/includes/header.html:13
+msgid "Головна"
+msgstr "Home"
+
+#: templates/includes/header.html:14
+msgid "Статутна діяльність"
+msgstr "Statutory Activity"
+
+#: templates/includes/header.html:15
+msgid "Міжнародна діяльність"
+msgstr "International Activity"
+
+#: templates/includes/header.html:16
+msgid "Волонтерство"
+msgstr "Volunteering"
+
+#: templates/includes/header.html:17
+msgid "Участь у проєктах"
+msgstr "Project Participation"
+
+#: templates/includes/header.html:18
+msgid "Про нас"
+msgstr "About Us"
+
+#: templates/includes/header.html:19
+msgid "Контакти"
+msgstr "Contacts"
+
+#: templates/includes/header.html:27
+msgid "Вийти"
+msgstr "Logout"
+
+#: templates/includes/header.html:29
+msgid "Увійти"
+msgstr "Login"
+
+msgid "View"
+msgstr "Переглянути"
+
+msgid "→ Перейти до архіву новин"
+msgstr "→ Go to news archive"
