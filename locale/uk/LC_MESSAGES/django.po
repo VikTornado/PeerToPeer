@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-22 09:56+0000\n"
+"POT-Creation-Date: 2025-11-22 18:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,23 @@ msgstr ""
 "11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
 "100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
 "(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: news/templates/news/news_list.html:6
+msgid "Архів новин"
+msgstr ""
+
+#: news/templates/news/news_list.html:34
+msgid "Детальніше →"
+msgstr ""
+
+#: news/templates/news/news_list.html:35
+msgid "← Згорнути"
+msgstr ""
+
+#: news/templates/news/news_list.html:49
+msgid "Закрити"
+msgstr ""
+
 #: templates/includes/base.html:9
 msgid "Наші новини"
 msgstr ""
@@ -32,7 +49,7 @@ msgstr ""
 msgid "No image"
 msgstr ""
 
-#: templates/includes/base.html:29
+#: templates/includes/base.html:29 templates/includes/base.html:44
 msgid "View"
 msgstr ""
 
@@ -40,46 +57,62 @@ msgstr ""
 msgid "← Повернутися на головну"
 msgstr ""
 
-#: templates/includes/base.html:38
+#: templates/includes/base.html:38 templates/includes/base.html:45
 msgid "→ Перейти до архіву новин"
 msgstr ""
 
-#: templates/includes/header.html:9
-msgid "PeerToPeer"
+#: templates/includes/footer.html:5
+msgid "Усі права захищено."
 msgstr ""
 
-#: templates/includes/header.html:13 templates/includes/header.html:78
+#: templates/includes/footer.html:8
+msgid "Політика конфіденційності"
+msgstr ""
+
+#: templates/includes/footer.html:9
+msgid "Умови використання"
+msgstr ""
+
+#: templates/includes/header.html:10
+msgid "PeerToPeer"
+msgstr "Рівний-рівному"
+
+#: templates/includes/header.html:14 templates/includes/header.html:99
 msgid "Головна"
 msgstr ""
 
-#: templates/includes/header.html:14 templates/includes/header.html:79
+#: templates/includes/header.html:19 templates/includes/header.html:104
+msgid "Діяльність фонду"
+msgstr ""
+
+#: templates/includes/header.html:31 templates/includes/header.html:108
 msgid "Статутна діяльність"
 msgstr ""
 
-#: templates/includes/header.html:15 templates/includes/header.html:80
+#: templates/includes/header.html:32 templates/includes/header.html:109
 msgid "Міжнародна діяльність"
 msgstr ""
 
-#: templates/includes/header.html:16 templates/includes/header.html:81
+#: templates/includes/header.html:33 templates/includes/header.html:110
 msgid "Волонтерство"
 msgstr ""
 
-#: templates/includes/header.html:17 templates/includes/header.html:82
+#: templates/includes/header.html:34 templates/includes/header.html:111
 msgid "Участь у проєктах"
 msgstr ""
 
-#: templates/includes/header.html:18 templates/includes/header.html:83
+#: templates/includes/header.html:38 templates/includes/header.html:115
 msgid "Про нас"
 msgstr ""
 
-#: templates/includes/header.html:19 templates/includes/header.html:84
+#: templates/includes/header.html:39 templates/includes/header.html:116
 msgid "Контакти"
 msgstr ""
 
-#: templates/includes/header.html:27
+#: templates/includes/header.html:47
 msgid "Вийти"
 msgstr ""
 
-#: templates/includes/header.html:29 templates/includes/header.html:87
+#: templates/includes/header.html:49 templates/includes/header.html:119
 msgid "Увійти"
 msgstr ""

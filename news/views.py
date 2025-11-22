@@ -10,7 +10,10 @@ def news_list(request):
         news_by_year[year].append(item)
 
     sorted_years = sorted(news_by_year.items(), reverse=True)
-    return render(request, 'news/news_list.html', {'news_by_year': sorted_years})
+    return render(request, 'news/news_archive.html', {
+        'news_by_year': sorted_years,
+        'news_list': all_news
+    })
 
 def news_detail(request, pk):
     news = get_object_or_404(News, pk=pk)

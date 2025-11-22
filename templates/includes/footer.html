@@ -1,9 +1,12 @@
-<div class="max-w-screen-xl px-4 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
-  <div class="text-sm">
-    © {{ year }} PeerToPeer. Усі права захищено.
+{% load i18n %}
+<footer class="bg-[#212529] text-white mt-10">
+  <div class="w-full max-w-8xl mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+    <div class="text-sm">
+      © {% now "Y" %} PeerToPeer. {% trans "Усі права захищено." %}
+    </div>
+    <div class="flex space-x-4 text-sm">
+      <a href="#" class="hover:text-[#FFD700] transition">{% trans "Політика конфіденційності" %}</a>
+      <a href="#" class="hover:text-[#FFD700] transition">{% trans "Умови використання" %}</a>
+    </div>
   </div>
-  <div class="flex space-x-4 text-sm">
-    <a href="#" class="hover:underline">Політика конфіденційності</a>
-    <a href="#" class="hover:underline">Умови використання</a>
-  </div>
-</div>
+</footer>
