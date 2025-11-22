@@ -1,7 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render
 from news.models import News
 from datetime import datetime
-from collections import defaultdict
 from .models import AboutPage, InternationalPage, VolunteeringPage, ProjectsPage
 from core.models import StatutPage
 
@@ -23,24 +22,10 @@ def volunteering_view(request):
 
 
 def about_view(request):
-    page = get_object_or_404(AboutPage)
+    page = AboutPage.objects.first()
     return render(request, 'includes/about.html', {'page': page})
 
 
-def news_detail(request, pk):
-    news = get_object_or_404(News, pk=pk)
-    return render(request, 'news/news_detail.html', {'news': news})
-
-
-def news_list(request):
-    news_by_year = defaultdict(list)
-    all_news = News.objects.all().order_by('-created_at')
-    for item in all_news:
-        year = item.created_at.year
-        news_by_year[year].append(item)
-
-    sorted_years = sorted(news_by_year.items(), reverse=True)
-    return render(request, 'news/news_list.html', {'news_by_year': sorted_years})
 
 
 def statut_view(request):

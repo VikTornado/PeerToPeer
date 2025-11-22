@@ -1,14 +1,16 @@
 from django.shortcuts import render, get_object_or_404
 from .models import News
+from collections import defaultdict
 
 def news_list(request):
-    news_queryset = News.objects.order_by('-created_at')
-    paginator = Paginator(news_queryset, 6)  # 6 новин на сторінку
+    news_by_year = defaultdict(list)
+    all_news = News.objects.all().order_by('-created_at')
+    for item in all_news:
+        year = item.created_at.year
+        news_by_year[year].append(item)
 
-    page_number = request.GET.get('page')
-    page_obj = paginator.get_page(page_number)
-
-    return render(request, 'news/news_list.html', {'page_obj': page_obj})
+    sorted_years = sorted(news_by_year.items(), reverse=True)
+    return render(request, 'news/news_list.html', {'news_by_year': sorted_years})
 
 def news_detail(request, pk):
     news = get_object_or_404(News, pk=pk)
