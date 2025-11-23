@@ -962,8 +962,12 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 64rem;
 }
 
-.max-w-8xl {
-  max-width: 1440px;
+.max-w-7xl {
+  max-width: 80rem;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
 }
 
 .max-w-none {
@@ -976,6 +980,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.max-w-8xl {
+  max-width: 1440px;
 }
 
 .max-w-2xl {
@@ -992,10 +1000,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .max-w-6xl {
   max-width: 72rem;
-}
-
-.max-w-7xl {
-  max-width: 80rem;
 }
 
 .flex-grow {
