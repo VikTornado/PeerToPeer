@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-22 19:08+0000\n"
+"POT-Creation-Date: 2025-11-24 08:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,16 +23,103 @@ msgid "Архів новин"
 msgstr "News Archive"
 
 #: news/templates/news/news_list.html:34
-msgid "Детальніше →"
-msgstr "Read more →"
+msgid "Детальніше"
+msgstr "Read more"
 
 #: news/templates/news/news_list.html:35
-msgid "← Згорнути"
-msgstr "← Collapse"
+msgid "Згорнути"
+msgstr "Collapse"
 
 #: news/templates/news/news_list.html:49
 msgid "Закрити"
 msgstr "Close"
+
+#: templates/includes/about.html:11
+msgid "Хто ми є?"
+msgstr "Who are we?"
+
+#: templates/includes/about.html:14
+msgid ""
+"Ми — енергія змін. Ми — спільнота, де кожен голос має значення, а кожна дія "
+"створює хвилю добра."
+msgstr "We are the energy of change. We are a community where every voice matters and every action creates a wave of good."
+
+#: templates/includes/about.html:24
+msgid "НАША МІСІЯ"
+msgstr "OUR MISSION"
+
+#: templates/includes/about.html:27
+msgid "Рівний-рівному — це більше, ніж фонд."
+msgstr "PeerToPeer is more than a foundation."
+
+#: templates/includes/about.html:30
+msgid ""
+"Це філософія взаємодії, де немає «благодійників» і «прохачів». Є лише люди, "
+"які об'єднуються заради спільної мети. Ми віримо, що справжня сила "
+"суспільства — у горизонтальних зв'язках."
+msgstr "It is a philosophy of interaction where there are no 'benefactors' and 'beggars'. There are only people uniting for a common goal. We believe that the true strength of society lies in horizontal connections."
+
+#: templates/includes/about.html:33
+msgid ""
+"Ми будуємо мости довіри, руйнуємо бар'єри байдужості та створюємо простір, "
+"де інновації служать людяності."
+msgstr "We build bridges of trust, break down barriers of indifference, and create a space where innovation serves humanity."
+
+#: templates/includes/about.html:48
+msgid "Наші цінності"
+msgstr "Our Values"
+
+#: templates/includes/about.html:49
+msgid "Принципи, які керують кожним нашим кроком"
+msgstr "Principles that guide our every step"
+
+#: templates/includes/about.html:58
+msgid "Прозорість"
+msgstr "Transparency"
+
+#: templates/includes/about.html:60
+msgid ""
+"Ми відкриті у своїх діях, звітах та намірах. Довіра — це валюта, яку ми "
+"цінуємо понад усе."
+msgstr "We are open in our actions, reports, and intentions. Trust is the currency we value above all else."
+
+#: templates/includes/about.html:69
+msgid "Взаємопідтримка"
+msgstr "Mutual Support"
+
+#: templates/includes/about.html:71
+msgid ""
+"Ми не просто допомагаємо — ми даємо інструменти для зростання. Сильний "
+"допомагає слабшому стати сильним."
+msgstr "We don't just help — we provide tools for growth. The strong help the weak become strong."
+
+#: templates/includes/about.html:80
+msgid "Інновації"
+msgstr "Innovation"
+
+#: templates/includes/about.html:82
+msgid ""
+"Благодійність має бути сучасною. Ми шукаємо нові шляхи для вирішення старих "
+"проблем."
+msgstr "Charity must be modern. We seek new ways to solve old problems."
+
+#: templates/includes/about.html:91
+msgid "Готові стати частиною змін?"
+msgstr "Ready to be part of the change?"
+
+#: templates/includes/about.html:93
+msgid ""
+"Ваша участь може змінити чиєсь життя вже сьогодні. Долучайтесь до нашої "
+"команди або підтримайте проєкт."
+msgstr "Your participation can change someone's life today. Join our team or support the project."
+
+#: templates/includes/about.html:97
+msgid "Стати волонтером"
+msgstr "Become a Volunteer"
+
+#: templates/includes/about.html:100
+msgid "Зв'язатися з нами"
+msgstr "Contact Us"
 
 #: templates/includes/base.html:9
 msgid "Наші новини"
@@ -47,16 +134,17 @@ msgid "No image"
 msgstr "No image"
 
 #: templates/includes/base.html:29 templates/includes/base.html:44
+#: templates/includes/home.html:29
 msgid "View"
 msgstr "View"
 
 #: templates/includes/base.html:37
-msgid "← Повернутися на головну"
-msgstr "← Back to Home"
+msgid "Повернутися на головну"
+msgstr "Back to Home"
 
 #: templates/includes/base.html:38 templates/includes/base.html:45
-msgid "→ Перейти до архіву новин"
-msgstr "→ Go to news archive"
+msgid "Перейти до архіву новин"
+msgstr "Go to news archive"
 
 #: templates/includes/footer.html:5
 msgid "Усі права захищено."
@@ -74,35 +162,35 @@ msgstr "Terms of Use"
 msgid "PeerToPeer"
 msgstr "PeerToPeer"
 
-#: templates/includes/header.html:14 templates/includes/header.html:99
+#: templates/includes/header.html:14 templates/includes/header.html:107
 msgid "Головна"
 msgstr "Home"
 
-#: templates/includes/header.html:19 templates/includes/header.html:104
+#: templates/includes/header.html:19 templates/includes/header.html:112
 msgid "Діяльність фонду"
 msgstr "Fund Activities"
 
-#: templates/includes/header.html:31 templates/includes/header.html:108
+#: templates/includes/header.html:31 templates/includes/header.html:116
 msgid "Статутна діяльність"
 msgstr "Statutory Activities"
 
-#: templates/includes/header.html:32 templates/includes/header.html:109
+#: templates/includes/header.html:32 templates/includes/header.html:117
 msgid "Міжнародна діяльність"
 msgstr "International Activities"
 
-#: templates/includes/header.html:33 templates/includes/header.html:110
+#: templates/includes/header.html:33 templates/includes/header.html:118
 msgid "Волонтерство"
 msgstr "Volunteering"
 
-#: templates/includes/header.html:34 templates/includes/header.html:111
+#: templates/includes/header.html:34 templates/includes/header.html:119
 msgid "Участь у проєктах"
 msgstr "Project Participation"
 
-#: templates/includes/header.html:38 templates/includes/header.html:115
+#: templates/includes/header.html:38 templates/includes/header.html:123
 msgid "Про нас"
 msgstr "About Us"
 
-#: templates/includes/header.html:39 templates/includes/header.html:116
+#: templates/includes/header.html:39 templates/includes/header.html:124
 msgid "Контакти"
 msgstr "Contacts"
 
@@ -110,6 +198,288 @@ msgstr "Contacts"
 msgid "Вийти"
 msgstr "Logout"
 
-#: templates/includes/header.html:49 templates/includes/header.html:119
+#: templates/includes/header.html:53 templates/includes/header.html:132
 msgid "Увійти"
 msgstr "Login"
+
+#: templates/includes/international.html:11
+msgid "Світ без кордонів"
+msgstr "World Without Borders"
+
+#: templates/includes/international.html:14
+msgid ""
+"Ми об'єднуємо зусилля з міжнародними партнерами, щоб принести найкращий "
+"світовий досвід та ресурси в Україну."
+msgstr "We join forces with international partners to bring the best global experience and resources to Ukraine."
+
+#: templates/includes/international.html:29
+msgid "Гуманітарні місії"
+msgstr "Humanitarian Missions"
+
+#: templates/includes/international.html:31
+msgid ""
+"Співпраця з європейськими фондами для доставки медикаментів, обладнання та "
+"продуктів харчування у постраждалі регіони."
+msgstr "Cooperation with European foundations to deliver medicines, equipment, and food to affected regions."
+
+#: templates/includes/international.html:40
+msgid "Освітній обмін"
+msgstr "Educational Exchange"
+
+#: templates/includes/international.html:42
+msgid ""
+"Організація стажувань та навчальних програм для українських волонтерів та "
+"соціальних працівників за кордоном."
+msgstr "Organization of internships and training programs for Ukrainian volunteers and social workers abroad."
+
+#: templates/includes/international.html:51
+msgid "Культурна дипломатія"
+msgstr "Cultural Diplomacy"
+
+#: templates/includes/international.html:53
+msgid ""
+"Проведення виставок та заходів, що розповідають світові правду про події в "
+"Україні та нашу культуру."
+msgstr "Holding exhibitions and events that tell the world the truth about events in Ukraine and our culture."
+
+#: templates/includes/international.html:62
+msgid "Наші міжнародні партнери"
+msgstr "Our International Partners"
+
+#: templates/includes/projects.html:11
+msgid "Історії успіху"
+msgstr "Success Stories"
+
+#: templates/includes/projects.html:14
+msgid ""
+"Реальні проєкти, реальні люди, реальні зміни. Подивіться, що ми вже зробили "
+"разом."
+msgstr "Real projects, real people, real changes. See what we have already done together."
+
+#: templates/includes/projects.html:24
+msgid "Реалізованих проєктів"
+msgstr "Implemented Projects"
+
+#: templates/includes/projects.html:28
+msgid "Людей отримали допомогу"
+msgstr "People Helped"
+
+#: templates/includes/projects.html:32
+msgid "Активних волонтерів"
+msgstr "Active Volunteers"
+
+#: templates/includes/projects.html:36
+msgid "Гривень зібрано"
+msgstr "Hryvnias Raised"
+
+#: templates/includes/projects.html:50 templates/includes/projects.html:90
+msgid "Завершено"
+msgstr "Completed"
+
+#: templates/includes/projects.html:54
+msgid "Допомога дітям-сиротам"
+msgstr "Help for Orphans"
+
+#: templates/includes/projects.html:56
+msgid ""
+"Забезпечення дитячих будинків необхідними речами, організація свят та "
+"освітніх заходів."
+msgstr "Providing orphanages with necessary items, organizing holidays and educational events."
+
+#: templates/includes/projects.html:59 templates/includes/projects.html:79
+#: templates/includes/projects.html:99
+msgid "Детальніше про проєкт"
+msgstr "More about the project"
+
+#: templates/includes/projects.html:70
+msgid "Триває"
+msgstr "Ongoing"
+
+#: templates/includes/projects.html:74
+msgid "Відбудова житла"
+msgstr "Housing Reconstruction"
+
+#: templates/includes/projects.html:76
+msgid ""
+"Допомога у відновленні пошкоджених будинків у деокупованих регіонах. "
+"Будівельні матеріали та робоча сила."
+msgstr "Assistance in restoring damaged houses in de-occupied regions. Building materials and labor."
+
+#: templates/includes/projects.html:94
+msgid "Медичне обладнання"
+msgstr "Medical Equipment"
+
+#: templates/includes/projects.html:96
+msgid ""
+"Закупівля та передача сучасного медичного обладнання для лікарень у "
+"прифронтових зонах."
+msgstr "Purchase and transfer of modern medical equipment for hospitals in frontline zones."
+
+#: templates/includes/statut.html:11
+msgid "Офіційна інформація"
+msgstr "Official Information"
+
+#: templates/includes/statut.html:14
+msgid "Прозорість та Відповідальність"
+msgstr "Transparency and Responsibility"
+
+#: templates/includes/statut.html:17
+msgid ""
+"Ми будуємо свою діяльність на принципах чесності та відкритості. Тут ви "
+"знайдете всі офіційні документи та звіти фонду."
+msgstr "We build our activities on the principles of honesty and openness. Here you will find all official documents and reports of the foundation."
+
+#: templates/includes/statut.html:27
+msgid "Документи фонду"
+msgstr "Foundation Documents"
+
+#: templates/includes/statut.html:38
+msgid "Статут Організації"
+msgstr "Organization Statute"
+
+#: templates/includes/statut.html:39
+msgid "Основний документ, що регулює діяльність фонду."
+msgstr "The main document regulating the foundation's activities."
+
+#: templates/includes/statut.html:41 templates/includes/statut.html:57
+#: templates/includes/statut.html:73
+msgid "Завантажити"
+msgstr "Download"
+
+#: templates/includes/statut.html:54
+msgid "Виписка з реєстру"
+msgstr "Registry Excerpt"
+
+#: templates/includes/statut.html:55
+msgid "Підтвердження державної реєстрації неприбуткової організації."
+msgstr "Confirmation of state registration of a non-profit organization."
+
+#: templates/includes/statut.html:70
+msgid "Річний звіт 2024"
+msgstr "Annual Report 2024"
+
+#: templates/includes/statut.html:71
+msgid "Детальний звіт про використані кошти та реалізовані проєкти."
+msgstr "Detailed report on funds used and projects implemented."
+
+#: templates/includes/statut.html:83
+msgid "Історія створення"
+msgstr "History of Creation"
+
+#: templates/includes/statut.html:91
+msgid "Заснування фонду"
+msgstr "Foundation Establishment"
+
+#: templates/includes/statut.html:92
+msgid "Офіційна реєстрація та початок роботи перших волонтерських штабів."
+msgstr "Official registration and start of work of the first volunteer headquarters."
+
+#: templates/includes/statut.html:103
+msgid "Міжнародне визнання"
+msgstr "International Recognition"
+
+#: templates/includes/statut.html:104
+msgid "Отримання грантів та початок співпраці з європейськими партнерами."
+msgstr "Receiving grants and starting cooperation with European partners."
+
+#: templates/includes/statut.html:113
+msgid "Масштабування"
+msgstr "Scaling"
+
+#: templates/includes/statut.html:114
+msgid "Відкриття нових напрямків допомоги та запуск освітніх програм."
+msgstr "Opening new areas of assistance and launching educational programs."
+
+#: templates/includes/volunteering.html:11
+msgid "Твоя суперсила — небайдужість"
+msgstr "Your superpower is indifference"
+
+#: templates/includes/volunteering.html:14
+msgid ""
+"Кожна година твого часу може змінити чиєсь життя. Приєднуйся до команди, яка "
+"творить дива своїми руками."
+msgstr "Every hour of your time can change someone's life. Join the team that creates miracles with their own hands."
+
+#: templates/includes/volunteering.html:17
+msgid "Заповнити анкету"
+msgstr "Fill out the form"
+
+#: templates/includes/volunteering.html:27
+msgid "Як стати волонтером?"
+msgstr "How to become a volunteer?"
+
+#: templates/includes/volunteering.html:38
+msgid "Заповни анкету"
+msgstr "Fill out the form"
+
+#: templates/includes/volunteering.html:40
+msgid "Розкажи нам про свої навички та час, який ти готовий приділяти."
+msgstr "Tell us about your skills and the time you are ready to dedicate."
+
+#: templates/includes/volunteering.html:49
+msgid "Пройди співбесіду"
+msgstr "Pass the interview"
+
+#: templates/includes/volunteering.html:51
+msgid "Коротка розмова з координатором, щоб знайти ідеальне завдання для тебе."
+msgstr "A short conversation with the coordinator to find the perfect task for you."
+
+#: templates/includes/volunteering.html:60
+msgid "Почни діяти"
+msgstr "Start acting"
+
+#: templates/includes/volunteering.html:62
+msgid "Отримай перше завдання, інструктаж та підтримку команди."
+msgstr "Get the first task, briefing, and team support."
+
+#: templates/includes/volunteering.html:71
+msgid "Історії наших волонтерів"
+msgstr "Stories of our volunteers"
+
+#: templates/includes/volunteering.html:80
+msgid "Координатор логістики"
+msgstr "Logistics Coordinator"
+
+#: templates/includes/volunteering.html:84
+msgid ""
+"Я прийшла сюди, щоб просто допомогти розвантажувати коробки, а знайшла другу "
+"сім'ю. Тут ти відчуваєш, що твоя праця справді важлива."
+msgstr "I came here just to help unload boxes, but I found a second family. Here you feel that your work is truly important."
+
+#: templates/includes/volunteering.html:94
+msgid "IT-волонтер"
+msgstr "IT Volunteer"
+
+#: templates/includes/volunteering.html:98
+msgid ""
+"Допомагати можна не тільки руками, а й кодом. Я радий, що мої навички "
+"допомагають фонду працювати ефективніше."
+msgstr "You can help not only with your hands but also with code. I am glad that my skills help the foundation work more efficiently."
+
+#: templates/includes/volunteering.html:108
+msgid "Готовий долучитися?"
+msgstr "Ready to join?"
+
+#: templates/includes/volunteering.html:110
+msgid "Залиш свої контакти, і ми зв'яжемося з тобою найближчим часом."
+msgstr "Leave your contacts, and we will contact you shortly."
+
+#: templates/includes/volunteering.html:114
+msgid "Ім'я"
+msgstr "Name"
+
+#: templates/includes/volunteering.html:115
+msgid "Твоє ім'я"
+msgstr "Your name"
+
+#: templates/includes/volunteering.html:118
+msgid "Email"
+msgstr "Email"
+
+#: templates/includes/volunteering.html:122
+msgid "Телефон"
+msgstr "Phone"
+
+#: templates/includes/volunteering.html:126
+msgid "Надіслати заявку"
+msgstr "Send application"
