@@ -4,6 +4,11 @@
 {% block content %}
 <div class="font-sans text-gray-700">
 
+  {% if page.content %}
+    <div class="container mx-auto py-12 px-4 prose max-w-none text-gray-700">
+      {{ page.content|safe }}
+    </div>
+  {% else %}
   <!-- Hero Section -->
   <section class="relative py-20 overflow-hidden">
     <div class="relative z-10 max-w-4xl mx-auto text-center px-4">
@@ -102,6 +107,7 @@
       </div>
     </div>
   </section>
+  {% endif %}
 
 </div>
 {% endblock %}

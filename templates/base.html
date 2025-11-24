@@ -5,6 +5,22 @@
     <meta charset="UTF-8" />
     <title>{% block title %}PeerToPeer{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    {% block meta_tags %}
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    <meta property="og:title" content="PeerToPeer - {% trans 'Благодійний фонд' %}">
+    <meta property="og:description" content="{% trans 'Ми — спільнота, де кожен голос має значення, а кожна дія створює хвилю добра.' %}">
+    <meta property="og:image" content="{% static 'images/og-image.jpg' %}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ request.build_absolute_uri }}">
+    <meta property="twitter:title" content="PeerToPeer - {% trans 'Благодійний фонд' %}">
+    <meta property="twitter:description" content="{% trans 'Ми — спільнота, де кожен голос має значення, а кожна дія створює хвилю добра.' %}">
+    <meta property="twitter:image" content="{% static 'images/og-image.jpg' %}">
+    {% endblock %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">

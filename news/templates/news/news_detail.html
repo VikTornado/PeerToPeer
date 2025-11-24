@@ -1,5 +1,31 @@
 {% extends 'base.html' %}
 
+{% block title %}{{ news.title }} | PeerToPeer{% endblock %}
+
+{% block meta_tags %}
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ request.build_absolute_uri }}">
+<meta property="og:title" content="{{ news.title }}">
+<meta property="og:description" content="{{ news.content|striptags|truncatewords:30 }}">
+{% if news.main_image %}
+<meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{{ news.main_image.url }}">
+{% else %}
+<meta property="og:image" content="{% static 'images/og-image.jpg' %}">
+{% endif %}
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ request.build_absolute_uri }}">
+<meta property="twitter:title" content="{{ news.title }}">
+<meta property="twitter:description" content="{{ news.content|striptags|truncatewords:30 }}">
+{% if news.main_image %}
+<meta property="twitter:image" content="{{ request.scheme }}://{{ request.get_host }}{{ news.main_image.url }}">
+{% else %}
+<meta property="twitter:image" content="{% static 'images/og-image.jpg' %}">
+{% endif %}
+{% endblock %}
+
 {% block content %}
 <section class="max-w-screen-xl mx-auto px-4 py-10">
   <h1 class="text-2xl sm:text-3xl font-bold mb-6 text-center text-gray-800 break-words">

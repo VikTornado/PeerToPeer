@@ -1,9 +1,10 @@
 from django.db import models
+from ckeditor.fields import RichTextField
 
 
 class AboutPage(models.Model):
     title = models.CharField("Заголовок", max_length=200)
-    content = models.TextField("Контент", blank=True)
+    content = RichTextField("Контент", blank=True)
     updated_at = models.DateTimeField("Оновлено", auto_now=True)
 
     class Meta:
@@ -15,7 +16,7 @@ class AboutPage(models.Model):
 
 class ContactPage(models.Model):
     title = models.CharField(max_length=200)
-    content = models.TextField()
+    content = RichTextField()
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
@@ -23,7 +24,7 @@ class ContactPage(models.Model):
 
 class InternationalPage(models.Model):
     title = models.CharField(max_length=255)
-    content = models.TextField()
+    content = RichTextField()
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
@@ -31,7 +32,7 @@ class InternationalPage(models.Model):
 
 class ProjectsPage(models.Model):
     title = models.CharField(max_length=255)
-    content = models.TextField()
+    content = RichTextField()
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
@@ -39,7 +40,7 @@ class ProjectsPage(models.Model):
 
 class VolunteeringPage(models.Model):
     title = models.CharField(max_length=200)
-    content = models.TextField()
+    content = RichTextField()
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
@@ -47,7 +48,7 @@ class VolunteeringPage(models.Model):
 
 class StatutPage(models.Model):
     title = models.CharField(max_length=255)
-    content = models.TextField()
+    content = RichTextField()
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
