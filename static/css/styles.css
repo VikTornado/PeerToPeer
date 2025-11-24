@@ -910,6 +910,10 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100vh;
 }
 
+.min-h-\[400px\] {
+  min-height: 400px;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -992,6 +996,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .flex-grow {
@@ -1116,6 +1124,12 @@ h1, h2, h3, h4, h5, h6 {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-auto {
@@ -1766,6 +1780,26 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(255 215 0 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-\[\#1877F2\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(24 119 242 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-\[\#25D366\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(37 211 102 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-\[\#7360F2\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(115 96 242 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-\[\#E4405F\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(228 64 95 / var(--tw-text-opacity, 1));
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -1925,6 +1959,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .md\:ml-0 {
     margin-left: 0px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:block {

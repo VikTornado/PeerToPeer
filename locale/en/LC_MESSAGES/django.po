@@ -483,3 +483,35 @@ msgstr "Phone"
 #: templates/includes/volunteering.html:126
 msgid "Надіслати заявку"
 msgstr "Send application"
+
+#: templates/includes/contacts.html:11
+msgid "Зв'язатися з нами"
+msgstr "Contact Us"
+
+#: templates/includes/contacts.html:14
+msgid "Ми завжди відкриті до співпраці та нових ідей. Напишіть нам або завітайте в гості."
+msgstr "We are always open to cooperation and new ideas. Write to us or visit us."
+
+#: templates/includes/contacts.html:20
+msgid "Контактна інформація"
+msgstr "Contact Information"
+
+#: templates/includes/contacts.html:27
+msgid "Адреса"
+msgstr "Address"
+
+#: templates/includes/contacts.html:29
+msgid "м. Ужгород, вул. Волошина, 35"
+msgstr "Uzhhorod, Voloshyna St, 35"
+
+#: templates/includes/contacts.html:30
+msgid "індекс 88000"
+msgstr "zip code 88000"
+
+#: templates/includes/contacts.html:39
+msgid "Телефон"
+msgstr "Phone"
+
+#: templates/includes/contacts.html:51
+msgid "Email"
+msgstr "Email"
