@@ -51,7 +51,7 @@ msgstr ""
 
 #: templates/includes/base.html:29 templates/includes/base.html:44
 msgid "View"
-msgstr ""
+msgstr "Переглянути"
 
 #: templates/includes/base.html:37
 msgid "← Повернутися на головну"
