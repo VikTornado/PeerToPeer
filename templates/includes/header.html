@@ -65,6 +65,11 @@
   </a>
 {% endif %}
 
+<!-- Donate Button -->
+<a href="{% url 'donate' %}" class="hidden md:inline-block px-4 py-2 bg-[#FFD700] text-[#212529] font-bold rounded-lg hover:bg-yellow-400 transition shadow-sm">
+  {% trans "Підтримати" %}
+</a>
+
 <!-- Language Switcher with flags -->
 <form action="{% url 'set_language' %}" method="post" class="flex items-center space-x-2">
   {% csrf_token %}
@@ -130,8 +135,12 @@
 
       <a href="{% url 'about' %}" class="{% if request.path == '/about/' %}text-[#0057B8] font-semibold{% else %}text-gray-700{% endif %}">{% trans "Про нас" %}</a>
       <a href="/contacts/" class="{% if request.path == '/contacts/' %}text-[#0057B8] font-semibold{% else %}text-gray-700{% endif %}">{% trans "Контакти" %}</a>
+      
+      <!-- Donate Button Mobile -->
+      <a href="{% url 'donate' %}" class="block w-full text-center px-4 py-3 bg-[#FFD700] text-[#212529] font-bold rounded-lg hover:bg-yellow-400 transition shadow-sm">
+        {% trans "Підтримати" %}
+      </a>
 
-      <!-- Login -->
       <!-- Login -->
       <a href="#" class="flex items-center text-[#0057B8] hover:text-[#004494] transition">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">

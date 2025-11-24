@@ -4,7 +4,7 @@
 {% block content %}
 <div class="font-sans text-gray-700">
 
-  {% if page.content %}
+  {% if page.content and page.content|striptags|length > 5 %}
     <div class="container mx-auto py-12 px-4 prose max-w-none text-gray-700">
       {{ page.content|safe }}
     </div>
