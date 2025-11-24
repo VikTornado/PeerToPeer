@@ -29,4 +29,6 @@ ehthumbs.db
 Thumbs.db
 
 # Media
+# Media
 media/
+staticfiles/
