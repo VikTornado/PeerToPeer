@@ -515,3 +515,19 @@ msgstr "Phone"
 #: templates/includes/contacts.html:51
 msgid "Email"
 msgstr "Email"
+
+#: templates/includes/volunteering.html:130
+msgid "Дякуємо!"
+msgstr "Thank you!"
+
+#: templates/includes/volunteering.html:131
+msgid "Ваша заявка успішно надіслана. Ми зв'яжемося з вами найближчим часом."
+msgstr "Your application has been sent successfully. We will contact you shortly."
+
+#: templates/includes/volunteering.html:135
+msgid "Помилка!"
+msgstr "Error!"
+
+#: templates/includes/volunteering.html:153
+msgid "Відправка..."
+msgstr "Sending..."

@@ -45,3 +45,33 @@ def contacts(request):
 def contacts_view(request):
     return render(request, 'includes/contacts.html')
 
+
+from django.http import JsonResponse
+from django.core.mail import send_mail
+from django.views.decorators.http import require_POST
+from django.views.decorators.csrf import csrf_exempt
+import json
+
+@require_POST
+def volunteer_apply(request):
+    try:
+        data = json.loads(request.body)
+        name = data.get('name')
+        email = data.get('email')
+        phone = data.get('phone')
+
+        if not name or not email or not phone:
+            return JsonResponse({'success': False, 'message': 'All fields are required.'}, status=400)
+
+        # Send email
+        subject = f'New Volunteer Application: {name}'
+        message = f'Name: {name}\nEmail: {email}\nPhone: {phone}'
+        from_email = 'noreply@peertopeer.ua'
+        recipient_list = ['info@peertopeer.ua']  # Change to actual admin email
+
+        send_mail(subject, message, from_email, recipient_list)
+
+        return JsonResponse({'success': True, 'message': 'Application sent successfully!'})
+    except Exception as e:
+        return JsonResponse({'success': False, 'message': str(e)}, status=500)
+
