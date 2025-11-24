@@ -116,7 +116,7 @@
                 this.loading = true;
                 this.error = null;
                 try {
-                    const response = await fetch('{% url 'volunteer_apply' %}', {
+                    const response = await fetch('/volunteer-apply/', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',

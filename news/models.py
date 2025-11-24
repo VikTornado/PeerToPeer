@@ -1,8 +1,9 @@
 from django.db import models
+from ckeditor.fields import RichTextField
 
 class News(models.Model):
     title = models.CharField(max_length=255)
-    content = models.TextField()
+    content = RichTextField()
     external_link = models.URLField(blank=True, null=True, help_text="Посилання на зовнішню новину")
     created_at = models.DateTimeField(auto_now_add=True)
     # Основне зображення (для обкладинки)

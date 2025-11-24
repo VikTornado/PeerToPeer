@@ -19,6 +19,7 @@ urlpatterns = [
     path('contacts/', views.contacts_view, name='contacts'),
     path('volunteer-apply/', views.volunteer_apply, name='volunteer_apply'),
     path('set-language/', set_language, name='set_language'),
+    # Trigger reload
 ]
 
 if settings.DEBUG:

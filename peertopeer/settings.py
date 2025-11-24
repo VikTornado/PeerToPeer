@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'news',
+    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -124,6 +125,21 @@ else:
     # EMAIL_PORT = ...
     # EMAIL_HOST_USER = ...
     # EMAIL_HOST_PASSWORD = ...
+
+
+# CKEditor Configuration
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Link', 'Unlink'],
+            ['RemoveFormat', 'Source']
+        ],
+        'width': 'auto',
+    }
+}
 
 
 # Default primary key field type

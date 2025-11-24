@@ -830,6 +830,10 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
 }
 
+.contents {
+  display: contents;
+}
+
 .hidden {
   display: none;
 }
@@ -1036,6 +1040,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .cursor-zoom-in {
   cursor: zoom-in;
+}
+
+.resize {
+  resize: both;
 }
 
 .grid-cols-1 {
@@ -1523,6 +1531,10 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+.lowercase {
+  text-transform: lowercase;
+}
+
 .italic {
   font-style: italic;
 }
@@ -1751,6 +1763,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.\[server\:main\] {
+  server: main;
 }
 
 .hover\:-translate-y-2:hover {

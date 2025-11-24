@@ -30,7 +30,7 @@
                x-transition:leave="transition-all duration-500 ease-in-out"
                x-collapse
                class="px-4 pb-4 text-gray-700 text-sm max-h-[600px] overflow-y-auto">
-            {{ news.content|linebreaks }}
+            {{ news.content|safe }}
             <a href="{% url 'news_detail' news.pk %}" class="text-blue-600 hover:underline block mt-2">{% trans "Детальніше" %} →</a>
             <button @click="open = false" class="text-sm text-gray-500 mt-2 hover:underline">← {% trans "Згорнути" %}</button>
           </div>
