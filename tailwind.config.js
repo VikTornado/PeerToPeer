@@ -16,7 +16,7 @@ module.exports = {
         heading: ['Montserrat', 'sans-serif'],
       },
       maxWidth: {
-        '8xl': '1440px',
+        '8xl': '1240px',
       },
     },
   },

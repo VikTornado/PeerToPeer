@@ -19,22 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: news/templates/news/news_list.html:6
-#, fuzzy
-#| msgid "Наші новини"
 msgid "Архів новин"
-msgstr "Our News"
+msgstr "News Archive"
 
 #: news/templates/news/news_list.html:34
 msgid "Детальніше →"
-msgstr ""
+msgstr "Read more →"
 
 #: news/templates/news/news_list.html:35
 msgid "← Згорнути"
-msgstr ""
+msgstr "← Collapse"
 
 #: news/templates/news/news_list.html:49
 msgid "Закрити"
-msgstr ""
+msgstr "Close"
 
 #: templates/includes/base.html:9
 msgid "Наші новини"
@@ -62,15 +60,15 @@ msgstr "→ Go to news archive"
 
 #: templates/includes/footer.html:5
 msgid "Усі права захищено."
-msgstr ""
+msgstr "All rights reserved."
 
 #: templates/includes/footer.html:8
 msgid "Політика конфіденційності"
-msgstr ""
+msgstr "Privacy Policy"
 
 #: templates/includes/footer.html:9
 msgid "Умови використання"
-msgstr ""
+msgstr "Terms of Use"
 
 #: templates/includes/header.html:10
 msgid "PeerToPeer"
