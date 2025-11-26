@@ -1,5 +1,7 @@
 from django.db import models
 from ckeditor.fields import RichTextField
+from django.utils.translation import gettext_lazy as _
+
 
 
 class AboutPage(models.Model):
@@ -49,6 +51,8 @@ class VolunteeringPage(models.Model):
 class StatutPage(models.Model):
     title = models.CharField(max_length=255)
     content = RichTextField()
+    document = models.FileField(upload_to='documents/', blank=True, null=True, verbose_name=_("Document (PDF)"))
+    document_name = models.CharField(max_length=255, blank=True, null=True, verbose_name=_("Document Name"), help_text=_("e.g. Statute of the Organization"))
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):

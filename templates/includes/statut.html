@@ -32,7 +32,24 @@
     <h2 class="text-3xl font-heading font-bold text-[#0057B8] mb-12 text-center">{% trans "Документи фонду" %}</h2>
     
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- Document Card 1 -->
+      <!-- Dynamic Document Card (if uploaded) -->
+      {% if page.document %}
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition duration-300 group">
+        <div class="flex items-start justify-between mb-6">
+          <div class="p-3 bg-blue-50 rounded-lg group-hover:bg-[#0057B8] transition duration-300">
+            <svg class="w-8 h-8 text-[#0057B8] group-hover:text-white transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          </div>
+          <span class="text-xs font-bold text-gray-400 uppercase">PDF</span>
+        </div>
+        <h3 class="text-xl font-bold text-[#212529] mb-2">{{ page.document_name|default:"Статут Організації" }}</h3>
+        <p class="text-sm text-gray-500 mb-6">{% trans "Основний документ, що регулює діяльність фонду." %}</p>
+        <a href="{{ page.document.url }}" target="_blank" class="inline-flex items-center text-[#0057B8] font-semibold hover:underline">
+          {% trans "Завантажити" %}
+          <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+        </a>
+      </div>
+      {% else %}
+      <!-- Placeholder Document Card 1 -->
       <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition duration-300 group">
         <div class="flex items-start justify-between mb-6">
           <div class="p-3 bg-blue-50 rounded-lg group-hover:bg-[#0057B8] transition duration-300">
@@ -47,6 +64,7 @@
           <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
         </a>
       </div>
+      {% endif %}
 
       <!-- Document Card 2 -->
       <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition duration-300 group">
@@ -72,7 +90,7 @@
           </div>
           <span class="text-xs font-bold text-gray-400 uppercase">PDF</span>
         </div>
-        <h3 class="text-xl font-bold text-[#212529] mb-2">{% trans "Річний звіт 2024" %}</h3>
+        <h3 class="text-xl font-bold text-[#212529] mb-2">{% trans "Річний звіт 1978" %}</h3>
         <p class="text-sm text-gray-500 mb-6">{% trans "Детальний звіт про використані кошти та реалізовані проєкти." %}</p>
         <a href="#" class="inline-flex items-center text-[#0057B8] font-semibold hover:underline">
           {% trans "Завантажити" %}
@@ -92,7 +110,7 @@
         <div class="relative flex flex-col md:flex-row items-start md:items-center group">
           <div class="absolute -left-[9px] md:left-1/2 md:-ml-[9px] w-4 h-4 bg-[#0057B8] rounded-full border-4 border-white shadow-sm"></div>
           <div class="ml-8 md:ml-0 md:w-1/2 md:pr-12 md:text-right">
-            <span class="text-[#0057B8] font-bold text-lg">2022</span>
+            <span class="text-[#0057B8] font-bold text-lg">1978</span>
             <h3 class="text-xl font-bold text-[#212529] mt-1">{% trans "Заснування фонду" %}</h3>
             <p class="text-gray-600 mt-2">{% trans "Офіційна реєстрація та початок роботи перших волонтерських штабів." %}</p>
           </div>

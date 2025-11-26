@@ -1,4 +1,4 @@
-#!/Users/viktorminin/GitHub/PeerToPeer/.venv/bin/python3
+#!/Users/viktorminin/GitHub/PeerToPeer/PeerToPeer-1/.venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
