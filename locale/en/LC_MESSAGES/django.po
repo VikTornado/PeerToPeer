@@ -621,3 +621,105 @@ msgstr "Project Management"
 
 msgid "Лекції та воркшопи з управління соціальними проєктами: від ідеї до успішної реалізації."
 msgstr "Lectures and workshops on social project management: from idea to successful implementation."
+
+msgid "Підтримати через PrivatBank"
+msgstr "Support via PrivatBank"
+
+msgid "Інвестуйте в майбутнє України"
+msgstr "Invest in the future of Ukraine"
+
+msgid "Ваша підтримка важлива"
+msgstr "Your support is important"
+
+msgid "Кожна гривня допомагає нам реалізовувати важливі проєкти та підтримувати тих, хто цього потребує найбільше."
+msgstr "Every hryvnia helps us implement important projects and support those who need it most."
+
+msgid "Банківський переказ"
+msgstr "Bank Transfer"
+
+msgid "Отримувач"
+msgstr "Recipient"
+
+msgid "Код ЄДРПОУ"
+msgstr "EDRPOU Code"
+
+msgid "Призначення платежу"
+msgstr "Payment Purpose"
+
+msgid "Благодійна допомога"
+msgstr "Charitable Assistance"
+
+msgid "Онлайн оплата"
+msgstr "Online Payment"
+
+msgid "Швидкий та безпечний спосіб підтримати нас карткою Visa/Mastercard, через Apple Pay або Google Pay."
+msgstr "Fast and secure way to support us via Visa/Mastercard, Apple Pay, or Google Pay."
+
+msgid "Підтримати через LiqPay"
+msgstr "Support via LiqPay"
+
+msgid "Monobank Банка"
+msgstr "Monobank Jar"
+
+msgid "Куди йдуть ваші кошти?"
+msgstr "Where does your money go?"
+
+msgid "На статутну діяльність та допомогу"
+msgstr "For statutory activities and assistance"
+
+msgid "Комісій фонду з донатів"
+msgstr "Fund commissions from donations"
+
+msgid "Звітність та прозорість"
+msgstr "Reporting and transparency"
+
+msgid "Переглянути звіти фонду"
+msgstr "View fund reports"
+
+msgid "Наші Проєкти"
+msgstr "Our Projects"
+
+msgid "Реальні дії"
+msgstr "Real Actions"
+
+msgid "Від ідеї до результату. Ми втілюємо в життя ініціативи, що змінюють світ навколо нас."
+msgstr "From idea to result. We bring to life initiatives that change the world around us."
+
+msgid "Людей отримали допомогу"
+msgstr "People received help"
+
+msgid "Активних волонтерів"
+msgstr "Active volunteers"
+
+msgid "Гривень зібрано"
+msgstr "Hryvnias collected"
+
+msgid "Допомога дітям-сиротам"
+msgstr "Help for orphans"
+
+msgid "Забезпечення дитячих будинків необхідними речами, організація свят та освітніх заходів."
+msgstr "Providing orphanages with necessary items, organizing holidays and educational events."
+
+msgid "Детальніше про проєкт"
+msgstr "More about the project"
+
+msgid "Збір коштів"
+msgstr "Fundraising"
+
+msgid "Відбудова житла"
+msgstr "Housing reconstruction"
+
+msgid "Допомога у відновленні пошкоджених будинків у деокупованих регіонах. Будівельні матеріали та робоча сила."
+msgstr "Assistance in restoring damaged houses in de-occupied regions. Building materials and labor."
+
+msgid "Триває"
+msgstr "Ongoing"
+
+msgid "Медичне обладнання"
+msgstr "Medical equipment"
+
+msgid "Закупівля та передача сучасного медичного обладнання для лікарень у прифронтових зонах."
+msgstr "Purchase and transfer of modern medical equipment for hospitals in frontline zones."
+
+msgid "Завершено"
+msgstr "Completed"

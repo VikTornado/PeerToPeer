@@ -30,11 +30,11 @@
              x-transition:leave-start="opacity-100 translate-y-0"
              x-transition:leave-end="opacity-0 translate-y-2"
              class="absolute left-0 mt-0 w-56 bg-white rounded-md shadow-lg py-2 z-50 border border-gray-100">
-          <a href="/volunteering/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#0057B8]">{% trans "Волонтерська діяльність" %}</a>
-          <a href="/statut/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#0057B8]">{% trans "Міжнародна діяльність" %}</a>
+          <a href="/volunteering/" class="block px-4 py-2 text-sm {% if request.path == '/volunteering/' %}text-[#0057B8] font-semibold{% else %}text-gray-700{% endif %} hover:bg-gray-50 hover:text-[#0057B8]">{% trans "Волонтерська діяльність" %}</a>
+          <a href="/statut/" class="block px-4 py-2 text-sm {% if request.path == '/statut/' %}text-[#0057B8] font-semibold{% else %}text-gray-700{% endif %} hover:bg-gray-50 hover:text-[#0057B8]">{% trans "Міжнародна діяльність" %}</a>
           <a href="/volunteering/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#0057B8]">{% trans "Освітня діяльність" %}</a>
-          <a href="/international/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#0057B8]">{% trans "Видання та публікації" %}</a>
-          <a href="/projects/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-[#0057B8]">{% trans "Участь у проектах" %}</a>
+          <a href="/international/" class="block px-4 py-2 text-sm {% if request.path == '/international/' %}text-[#0057B8] font-semibold{% else %}text-gray-700{% endif %} hover:bg-gray-50 hover:text-[#0057B8]">{% trans "Видання та публікації" %}</a>
+          <a href="/projects/" class="block px-4 py-2 text-sm {% if request.path == '/projects/' %}text-[#0057B8] font-semibold{% else %}text-gray-700{% endif %} hover:bg-gray-50 hover:text-[#0057B8]">{% trans "Участь у проектах" %}</a>
         </div>
       </div>
 
