@@ -485,8 +485,6 @@ msgid "Надіслати заявку"
 msgstr "Send application"
 
 #: templates/includes/contacts.html:11
-msgid "Зв'язатися з нами"
-msgstr "Contact Us"
 
 #: templates/includes/contacts.html:14
 msgid "Ми завжди відкриті до співпраці та нових ідей. Напишіть нам або завітайте в гості."
@@ -509,12 +507,8 @@ msgid "індекс 88000"
 msgstr "zip code 88000"
 
 #: templates/includes/contacts.html:39
-msgid "Телефон"
-msgstr "Phone"
 
 #: templates/includes/contacts.html:51
-msgid "Email"
-msgstr "Email"
 
 #: templates/includes/volunteering.html:130
 msgid "Дякуємо!"
@@ -531,3 +525,99 @@ msgstr "Error!"
 #: templates/includes/volunteering.html:153
 msgid "Відправка..."
 msgstr "Sending..."
+
+msgid "Волонтерська діяльність"
+msgstr "Volunteering Activity"
+
+msgid "Освітня діяльність"
+msgstr "Educational Activity"
+
+msgid "Видання та публікації"
+msgstr "Publications"
+
+msgid "Участь у проектах"
+msgstr "Project Participation"
+
+msgid "Документи та угоди"
+msgstr "Documents and Agreements"
+
+msgid "Знання та досвід"
+msgstr "Knowledge and Experience"
+
+msgid "Глобальний вплив"
+msgstr "Global Impact"
+
+msgid "Наші напрямки співпраці"
+msgstr "Our Cooperation Directions"
+
+msgid "Ми не лише допомагаємо, а й навчаємо"
+msgstr "We not only help but also educate"
+
+msgid "Тренінги та семінари"
+msgstr "Trainings and Seminars"
+
+msgid "Школа волонтерства"
+msgstr "Volunteering School"
+
+msgid "Курси першої домедичної допомоги"
+msgstr "First Aid Courses"
+
+msgid "Лекції з проєктного менеджменту"
+msgstr "Project Management Lectures"
+
+msgid "Готовий діяти?"
+msgstr "Ready to Act?"
+
+msgid "Заповнюй анкету волонтера і ми зв'яжемося з тобою найближчим часом."
+msgstr "Fill out the volunteer form and we will contact you shortly."
+
+
+
+msgid "Звіт"
+msgstr "Report"
+
+msgid "Методичка"
+msgstr "Manual"
+
+msgid "Дослідження"
+msgstr "Research"
+
+
+msgid "Вплив війни на освіту"
+msgstr "Impact of War on Education"
+
+msgid "Читати далі"
+msgstr "Read more"
+
+msgid "Завантажити PDF"
+msgstr "Download PDF"
+
+msgid "Нам довіряють"
+msgstr "Trusted by"
+
+msgid "Підсумки нашої роботи за рік: цифри, факти, історії та плани на майбутнє."
+msgstr "Summary of our work for the year: figures, facts, stories, and plans for the future."
+
+msgid "Покрокова інструкція для тих, хто хоче долучитися до волонтерського руху."
+msgstr "Step-by-step instructions for those who want to join the volunteer movement."
+
+msgid "Аналітичний звіт про стан освітньої системи в постраждалих регіонах."
+msgstr "Analytical report on the state of the education system in affected regions."
+
+msgid "Регулярні навчальні заходи для волонтерів, громадських активістів та всіх бажаючих. Ми запрошуємо експертів з різних галузей для обміну знаннями."
+msgstr "Regular educational events for volunteers, civic activists, and everyone interested. We invite experts from various fields to share knowledge."
+
+msgid "Базовий курс для новачків: історія волонтерства, етика, безпека та основи командної роботи."
+msgstr "Basic course for beginners: history of volunteering, ethics, safety, and basics of teamwork."
+
+msgid "Домедична допомога"
+msgstr "First Aid"
+
+msgid "Практичні тренінги з надання першої допомоги. Сертифіковані інструктори та сучасне обладнання."
+msgstr "Practical first aid training. Certified instructors and modern equipment."
+
+msgid "Проєктний менеджмент"
+msgstr "Project Management"
+
+msgid "Лекції та воркшопи з управління соціальними проєктами: від ідеї до успішної реалізації."
+msgstr "Lectures and workshops on social project management: from idea to successful implementation."

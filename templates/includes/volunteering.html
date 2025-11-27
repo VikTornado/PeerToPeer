@@ -27,6 +27,67 @@
     <div class="absolute bottom-0 left-0 w-64 h-64 bg-[#0057B8] opacity-10 rounded-full mix-blend-multiply filter blur-3xl"></div>
   </section>
 
+  <!-- Education Section -->
+  <section class="py-16 bg-gray-50 rounded-3xl my-8 mx-4 md:mx-0">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-heading font-bold text-[#0057B8] mb-4">{% trans "Освітня діяльність" %}</h2>
+        <p class="text-lg text-gray-600">{% trans "Ми не лише допомагаємо, а й навчаємо" %}</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition duration-300 group">
+          <div class="w-14 h-14 bg-green-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-green-600 transition duration-300">
+            <svg class="w-8 h-8 text-green-600 group-hover:text-white transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          </div>
+          <h3 class="text-xl font-bold text-[#212529] mb-3">{% trans "Школа волонтерства" %}</h3>
+          <p class="text-gray-600">
+            {% trans "Базовий курс для новачків: історія волонтерства, етика, безпека та основи командної роботи." %}
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition duration-300 group">
+          <div class="w-14 h-14 bg-red-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-600 transition duration-300">
+            <svg class="w-8 h-8 text-red-600 group-hover:text-white transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+          </div>
+          <h3 class="text-xl font-bold text-[#212529] mb-3">{% trans "Домедична допомога" %}</h3>
+          <p class="text-gray-600">
+            {% trans "Практичні тренінги з надання першої допомоги. Сертифіковані інструктори та сучасне обладнання." %}
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition duration-300 group">
+          <div class="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-purple-600 transition duration-300">
+            <svg class="w-8 h-8 text-purple-600 group-hover:text-white transition duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+          </div>
+          <h3 class="text-xl font-bold text-[#212529] mb-3">{% trans "Проєктний менеджмент" %}</h3>
+          <p class="text-gray-600">
+            {% trans "Лекції та воркшопи з управління соціальними проєктами: від ідеї до успішної реалізації." %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-[#0057B8] rounded-3xl mx-4 md:mx-0 text-center text-white relative overflow-hidden">
+    <div class="relative z-10 max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl md:text-5xl font-heading font-bold mb-6">{% trans "Готовий діяти?" %}</h2>
+      <p class="text-xl text-blue-100 mb-8">
+        {% trans "Заповнюй анкету волонтера і ми зв'яжемося з тобою найближчим часом." %}
+      </p>
+      <a href="#join-form" class="inline-block px-8 py-4 bg-[#FFD700] text-[#212529] font-bold rounded-xl hover:bg-yellow-400 transition shadow-lg">
+        {% trans "Заповнити анкету" %}
+      </a>
+    </div>
+    <!-- Decor -->
+    <div class="absolute top-0 right-0 w-64 h-64 bg-white opacity-20 rounded-full mix-blend-overlay filter blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-[#0057B8] opacity-10 rounded-full mix-blend-multiply filter blur-3xl"></div>
+  </section>
+
   <!-- Steps Section -->
   <section class="py-20 max-w-6xl mx-auto px-4">
     <h2 class="text-3xl font-heading font-bold text-[#0057B8] mb-16 text-center">{% trans "Як стати волонтером?" %}</h2>

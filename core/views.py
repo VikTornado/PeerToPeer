@@ -79,3 +79,12 @@ def volunteer_apply(request):
     except Exception as e:
         return JsonResponse({'success': False, 'message': str(e)}, status=500)
 
+
+def publication_detail(request, type_id):
+    types = {
+        'report': 'Річний звіт 2024',
+        'manual': 'Як стати волонтером?',
+        'research': 'Вплив війни на освіту'
+    }
+    title = types.get(type_id, 'Публікація')
+    return render(request, 'includes/publication_detail.html', {'title': title, 'type': 'Публікація'})
