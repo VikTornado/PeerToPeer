@@ -723,3 +723,6 @@ msgstr "Purchase and transfer of modern medical equipment for hospitals in front
 
 msgid "Завершено"
 msgstr "Completed"
+
+msgid "Діяльність"
+msgstr "Activities"
