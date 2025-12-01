@@ -167,8 +167,8 @@ msgid "Головна"
 msgstr "Home"
 
 #: templates/includes/header.html:19 templates/includes/header.html:112
-msgid "Діяльність фонду"
-msgstr "Fund Activities"
+msgid "Діяльність"
+msgstr "Activities"
 
 #: templates/includes/header.html:31 templates/includes/header.html:116
 msgid "Статутна діяльність"
@@ -697,32 +697,3 @@ msgstr "Hryvnias collected"
 msgid "Допомога дітям-сиротам"
 msgstr "Help for orphans"
 
-msgid "Забезпечення дитячих будинків необхідними речами, організація свят та освітніх заходів."
-msgstr "Providing orphanages with necessary items, organizing holidays and educational events."
-
-msgid "Детальніше про проєкт"
-msgstr "More about the project"
-
-msgid "Збір коштів"
-msgstr "Fundraising"
-
-msgid "Відбудова житла"
-msgstr "Housing reconstruction"
-
-msgid "Допомога у відновленні пошкоджених будинків у деокупованих регіонах. Будівельні матеріали та робоча сила."
-msgstr "Assistance in restoring damaged houses in de-occupied regions. Building materials and labor."
-
-msgid "Триває"
-msgstr "Ongoing"
-
-msgid "Медичне обладнання"
-msgstr "Medical equipment"
-
-msgid "Закупівля та передача сучасного медичного обладнання для лікарень у прифронтових зонах."
-msgstr "Purchase and transfer of modern medical equipment for hospitals in frontline zones."
-
-msgid "Завершено"
-msgstr "Completed"
-
-msgid "Діяльність"
-msgstr "Activities"
