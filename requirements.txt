@@ -7,3 +7,5 @@ gunicorn==23.0.0
 whitenoise==6.11.0
 django-ckeditor
 django-modeltranslation
+dj-database-url
+psycopg2-binary
