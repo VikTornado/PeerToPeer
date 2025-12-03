@@ -9,3 +9,6 @@ django-ckeditor
 django-modeltranslation
 dj-database-url
 psycopg2-binary
+cloudinary
+django-cloudinary-storage
+urllib3
