@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-20 10:26+0200\n"
+"POT-Creation-Date: 2025-12-04 08:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,55 +17,57 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: core/templates/core/contacts.html:6
-msgid "Contacts"
-msgstr "Contacts"
 
-#: templates/includes/header.html:9
-msgid "Рівний-рівному"
-msgstr "PeerToPeer"
+#: core/models.py:70
+msgid "Document (PDF)"
+msgstr ""
 
-#: templates/includes/header.html:13
-msgid "Головна"
-msgstr "Home"
+#: core/models.py:71
+msgid "Document Name"
+msgstr ""
 
-#: templates/includes/header.html:14
-msgid "Статутна діяльність"
-msgstr "Statutory Activity"
+#: core/models.py:71
+msgid "e.g. Statute of the Organization"
+msgstr ""
 
-#: templates/includes/header.html:15
-msgid "Міжнародна діяльність"
-msgstr "International Activity"
+#~ msgid "Contacts"
+#~ msgstr "Contacts"
 
-#: templates/includes/header.html:16
-msgid "Волонтерство"
-msgstr "Volunteering"
+#~ msgid "Рівний-рівному"
+#~ msgstr "PeerToPeer"
 
-#: templates/includes/header.html:17
-msgid "Участь у проєктах"
-msgstr "Project Participation"
+#~ msgid "Головна"
+#~ msgstr "Home"
 
-#: templates/includes/header.html:18
-msgid "Про нас"
-msgstr "About Us"
+#~ msgid "Статутна діяльність"
+#~ msgstr "Statutory Activity"
 
-#: templates/includes/header.html:19
-msgid "Контакти"
-msgstr "Contacts"
+#~ msgid "Міжнародна діяльність"
+#~ msgstr "International Activity"
 
-#: templates/includes/header.html:27
-msgid "Вийти"
-msgstr "Logout"
+#~ msgid "Волонтерство"
+#~ msgstr "Volunteering"
 
-#: templates/includes/header.html:29
-msgid "Увійти"
-msgstr "Login"
+#~ msgid "Участь у проєктах"
+#~ msgstr "Project Participation"
 
-msgid "View"
-msgstr "View"
+#~ msgid "Про нас"
+#~ msgstr "About Us"
 
-msgid "→ Перейти до архіву новин"
-msgstr "→ Go to news archive"
+#~ msgid "Контакти"
+#~ msgstr "Contacts"
 
-msgid "Діяльність"
-msgstr "Activities"
+#~ msgid "Вийти"
+#~ msgstr "Logout"
+
+#~ msgid "Увійти"
+#~ msgstr "Login"
+
+#~ msgid "View"
+#~ msgstr "View"
+
+#~ msgid "→ Перейти до архіву новин"
+#~ msgstr "→ Go to news archive"
+
+#~ msgid "Діяльність"
+#~ msgstr "Activities"
