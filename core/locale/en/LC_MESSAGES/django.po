@@ -62,7 +62,10 @@ msgid "Увійти"
 msgstr "Login"
 
 msgid "View"
-msgstr "Переглянути"
+msgstr "View"
 
 msgid "→ Перейти до архіву новин"
 msgstr "→ Go to news archive"
+
+msgid "Діяльність"
+msgstr "Activities"

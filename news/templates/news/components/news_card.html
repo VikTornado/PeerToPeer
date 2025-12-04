@@ -1,11 +1,13 @@
 <a href="{% url 'news_detail' news.pk %}" class="block bg-white rounded-lg shadow-sm hover:shadow-lg transition p-4 border border-gray-200">
   {% if news.main_image %}
-    <img
-      src="{{ news.main_image.url }}"
-      alt="{{ news.title }}"
-      class="w-full h-48 object-cover rounded mb-4"
-      loading="lazy"
-    >
+    <div class="overflow-hidden h-48 mb-4 rounded">
+      <img
+        src="{{ news.main_image.url }}"
+        alt="{{ news.title }}"
+        class="w-full h-full object-cover transform hover:scale-105 transition duration-500"
+        loading="lazy"
+      >
+    </div>
   {% endif %}
 
   <h3 class="text-xl font-semibold text-gray-800 mb-1">{{ news.title }}</h3>
