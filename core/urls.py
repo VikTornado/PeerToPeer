@@ -19,6 +19,7 @@ urlpatterns = [
     path('contacts/', views.contacts_view, name='contacts'),
     path('donate/', views.donate_view, name='donate'),
     path('volunteer-apply/', views.volunteer_apply, name='volunteer_apply'),
+    path('publication/<str:type_id>/', views.publication_detail, name='publication_detail'),
     path('set-language/', set_language, name='set_language'),
     # Trigger reload
 ]

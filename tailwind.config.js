@@ -10,6 +10,7 @@ module.exports = {
         primary: '#0057B8', // Ukrainian Flag Blue
         secondary: '#FFD700', // Ukrainian Flag Yellow
         dark: '#212529', // Dark Gray Text
+        privatbank: '#74B119', // PrivatBank Green
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
