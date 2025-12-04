@@ -10,7 +10,7 @@
     <a href="/" class="text-xl mx-2 font-bold text-[#0057B8]">{% trans "PeerToPeer" %}</a>
 
     <!-- Desktop Navigation -->
-    <nav class="hidden md:flex space-x-6">
+    <nav class="hidden md:flex space-x-6 items-center">
       <a href="/" class="{% if request.path == '/' %}text-[#0057B8] font-semibold{% else %}text-gray-700{% endif %} ml-2 hover:text-[#0057B8]">{% trans "Головна" %}</a>
       
       <a href="{% url 'about' %}" class="{% if request.path == '/about/' %}text-[#0057B8] font-semibold{% else %}text-gray-700{% endif %} hover:text-[#0057B8]">{% trans "Про нас" %}</a>
